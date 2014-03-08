@@ -1,10 +1,51 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    'NAME'         => 'Tkx::Login',
-    'VERSION_FROM' => 'lib/Tkx/Login.pm',
-    'PREREQ_PM'    => { Tkx => 1.00 },
-    ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM => 'lib/Tkx/Login.pm',
-       AUTHOR     => 'Phillip Pollard <bennie@cpan.org>') : ()),
+  ABSTRACT => "A Tkx based Login screen",
+  AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
+  LICENSE  => 'artistic_2',
+  NAME     => 'Tkx-Login',
+  VERSION  => '1.06',
+
+  PREREQ_PM => {
+          'Test::More' => 0,
+          'Test' => 0,
+          'Tkx' => 0
+        },
+
+  ( $ExtUtils::MakeMaker::VERSION < 6.46
+        ? ()
+        : ( META_MERGE => {
+                'meta-spec' => { version => 2 },
+                no_index => {directory => [qw/t/]},
+                provides => 
+
+	{
+          'Tkx::Login' => {
+                            'version' => '1.06',
+                            'file' => 'lib/Tkx/Login.pm'
+                          }
+        },
+
+                release_status => 'stable',
+                resources => {
+                    repository => {
+                        type => 'git',
+                        url  => 'git://github.com/bennie/perl-Tkx-Login.git',
+                        web  => 'http://github.com/bennie/perl-Tkx-Login',
+                    },
+                    bugtracker => {
+                        web => 'https://rt.cpan.org/Dist/Display.html?Name=Tkx-Login',
+                    },
+
+                },
+            },
+        )
+    ),
+
+  ( $ExtUtils::MakeMaker::VERSION < 6.48
+        ? ()
+        : ( MIN_PERL_VERSION => '5.006001' )
+  )
+
 );

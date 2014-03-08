@@ -1,8 +1,10 @@
 Changes
 LICENSE
-lib/Tkx/Login.pm
-Makefile.PL
 MANIFEST
-README
-t/01-load.t
+META.json
 META.yml
+Makefile.PL
+README
+lib/Tkx/Login.pm
+t/00-pod.t
+t/01-load.t

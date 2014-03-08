@@ -1,6 +1,11 @@
 Revision history for Perl extension Tkx::Login.
 
-1.05  2014/02/24
+1.06  2014/03/08
+
+	Meta information now automatically generated
+	Adding a POD test
+
+1.05  2014/02/25
 
 	Added a "Cancel" button option.
 	Updated meta information

@@ -1,0 +1,61 @@
+{
+   "abstract" : "A Tkx based Login screen",
+   "author" : [
+      "Phil Pollard <bennie@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.9, CPAN::Meta::Converter version 2.140630",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "https://metacpan.org/pod/CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Tkx-Login",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Test" : "0",
+            "Test::More" : "0",
+            "Tkx" : "0",
+            "perl" : "5.006001"
+         }
+      }
+   },
+   "provides" : {
+      "Tkx::Login" : {
+         "file" : "lib/Tkx/Login.pm",
+         "version" : "1.06"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Dist/Display.html?Name=Tkx-Login"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/bennie/perl-Tkx-Login.git",
+         "web" : "http://github.com/bennie/perl-Tkx-Login"
+      }
+   },
+   "version" : "1.06"
+}
