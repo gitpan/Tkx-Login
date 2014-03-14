@@ -1,5 +1,9 @@
 Revision history for Perl extension Tkx::Login.
 
+1.07  2014/03/14
+
+	Now using "warnings"
+
 1.06  2014/03/08
 
 	Meta information now automatically generated

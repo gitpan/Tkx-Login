@@ -43,7 +43,7 @@
    "provides" : {
       "Tkx::Login" : {
          "file" : "lib/Tkx/Login.pm",
-         "version" : "1.06"
+         "version" : "1.07"
       }
    },
    "release_status" : "stable",
@@ -57,5 +57,5 @@
          "web" : "http://github.com/bennie/perl-Tkx-Login"
       }
    },
-   "version" : "1.06"
+   "version" : "1.07"
 }

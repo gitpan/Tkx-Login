@@ -21,7 +21,7 @@ no_index:
 provides:
   Tkx::Login:
     file: lib/Tkx/Login.pm
-    version: '1.06'
+    version: '1.07'
 requires:
   Test: '0'
   Test::More: '0'
@@ -30,4 +30,4 @@ requires:
 resources:
   bugtracker: https://rt.cpan.org/Dist/Display.html?Name=Tkx-Login
   repository: git://github.com/bennie/perl-Tkx-Login.git
-version: '1.06'
+version: '1.07'

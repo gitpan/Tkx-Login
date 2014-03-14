@@ -5,7 +5,7 @@ WriteMakefile(
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Tkx-Login',
-  VERSION  => '1.06',
+  VERSION  => '1.07',
 
   PREREQ_PM => {
           'Test::More' => 0,
@@ -22,7 +22,7 @@ WriteMakefile(
 
 	{
           'Tkx::Login' => {
-                            'version' => '1.06',
+                            'version' => '1.07',
                             'file' => 'lib/Tkx/Login.pm'
                           }
         },
