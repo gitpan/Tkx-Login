@@ -1,8 +1,5 @@
-use Test;
+use Test::Simple tests => 1;
 use strict;
 
-BEGIN { plan tests => 1 };
-
 use Tkx::Login;
-ok(1); 
-
+ok(1);

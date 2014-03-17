@@ -1,5 +1,5 @@
 
-         Tkx::Login - A Simple Login Window for Tkx - v 1.07
+         Tkx::Login - A Simple Login Window for Tkx - v 1.08
 
 ================================================================================
 SYNOPSIS:
@@ -39,7 +39,7 @@ USAGE:
 AUTHORSHIP:
 ================================================================================
 
-    Tkx::Login v1.07 2014/03/14
+    Tkx::Login v1.08 2014/03/17
 
     (c) 2012-2014, Phillip Pollard <bennie@cpan.org>
     Released under the Perl Artistic License
