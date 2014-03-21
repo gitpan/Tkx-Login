@@ -5,7 +5,7 @@ use Tkx;
 use warnings;
 use strict;
 
-$Tkx::Login::VERSION='1.08';
+$Tkx::Login::VERSION='1.09';
 
 sub askpass {
   my $interation = 0;
@@ -89,7 +89,7 @@ password and returns the values.
 
 =head1 VERSION
 
-	Tkx::Login v1.08 (2014/03/17)
+	Tkx::Login v1.09 (2014/03/20)
 
 =head1 COPYRIGHT
 
