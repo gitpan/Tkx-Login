@@ -5,7 +5,7 @@ use Tkx;
 use warnings;
 use strict;
 
-$Tkx::Login::VERSION='1.09';
+$Tkx::Login::VERSION='1.10';
 
 sub askpass {
   my $interation = 0;
@@ -62,6 +62,10 @@ sub askpass {
 
 1;
 
+=head1 NAME
+
+Tkx::Login - A Simple Login Window for Tkx 
+
 =head1 SYNOPSIS:
 
 Tkx::Login provides a simple login interface for Tkx applications. Given
@@ -89,7 +93,7 @@ password and returns the values.
 
 =head1 VERSION
 
-	Tkx::Login v1.09 (2014/03/20)
+	Tkx::Login v1.10 (2014/04/13)
 
 =head1 COPYRIGHT
 

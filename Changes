@@ -1,5 +1,9 @@
 Revision history for Perl extension Tkx::Login.
 
+1.10  2014/04/13
+
+	Adding the NAME block to the POD with synopsis.
+
 1.09  2014/03/20
 
 	Correcting META not having perl version.
