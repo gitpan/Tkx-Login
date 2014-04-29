@@ -2,9 +2,12 @@
 abstract: 'A Tkx based Login screen'
 author:
   - 'Phil Pollard <bennie@cpan.org>'
-build_requires: {}
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+generated_by: 'ExtUtils::MakeMaker version 6.96, CPAN::Meta::Converter version 2.120630'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,8 +21,12 @@ no_index:
 provides:
   Tkx::Login:
     file: lib/Tkx/Login.pm
-    version: 1.10
+    version: 1.11
+requires:
+  Test::More: 0
+  Tkx: 0
+  perl: 5.006
 resources:
   bugtracker: https://rt.cpan.org/Dist/Display.html?Name=Tkx-Login
   repository: git://github.com/bennie/perl-Tkx-Login.git
-version: 1.10
+version: 1.11

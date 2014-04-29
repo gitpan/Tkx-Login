@@ -5,7 +5,7 @@ WriteMakefile(
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Tkx-Login',
-  VERSION  => '1.10',
+  VERSION  => '1.11',
 
   PREREQ_PM => {
           'Test::More' => 0,
@@ -21,7 +21,7 @@ WriteMakefile(
 
 	{
           'Tkx::Login' => {
-                            'version' => '1.10',
+                            'version' => '1.11',
                             'file' => 'lib/Tkx/Login.pm'
                           }
         },
@@ -44,7 +44,7 @@ WriteMakefile(
 
   ( $ExtUtils::MakeMaker::VERSION < 6.48
         ? ()
-        : ( MIN_PERL_VERSION => '5.006001' )
+        : ( MIN_PERL_VERSION => '5.006' )
   )
 
 );
